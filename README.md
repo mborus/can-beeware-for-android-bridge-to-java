@@ -41,6 +41,10 @@ The java example is in the folder `java_src` - it is not in the correct place an
 The easiest way to get started is to follow the beeware tutorial (https://docs.beeware.org/en/latest/tutorial/tutorial-0.html) until step 5 (Android) and then 
 modify the project to match this repo.
 
+The changes are in file `androidjavaexperiment/src/androidjavaexperiment/app.py`, 
+other than that there's only the need to get the java file from `androidjavaexperiment/java_src/org/beeware/android/AutoCounter.java`
+Note: The file is in the beeware folder as an experiment - it should find the correct place.
+
 
 Installation:
 ##############
