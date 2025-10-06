@@ -188,7 +188,7 @@ build_gradle_dependencies = [
 
 # Add this - it injects code into app/build.gradle
 build_gradle_extra_content = """
-android.sourceSets.main.java.srcDirs += '../../../../../andriod/java'
+android.sourceSets.main.java.srcDirs += '../../../../../android/java'
 """
 
 
