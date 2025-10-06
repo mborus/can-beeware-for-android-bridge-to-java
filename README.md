@@ -66,7 +66,9 @@ Installation:
 from the command line:
 
 briefcase create  android -v
+
 briefcase build  android -v
+
 briefcase run  android -v
 
-Note: After every change to the pyproject.toml file, I'm currently deleting the build folder and rebuild.
+Note: After every change to the pyproject.toml file, I'm currently deleting the build folder and rebuild. I'm also changing something in the Toga app title to see that the version on the device really updated.
