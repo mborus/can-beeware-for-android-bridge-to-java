@@ -186,6 +186,12 @@ build_gradle_dependencies = [
     # "org.osmdroid:osmdroid-android:6.1.20",
 ]
 
+# Add this - it injects code into app/build.gradle
+build_gradle_extra_content = """
+android.sourceSets.main.java.srcDirs += '../../../../../andriod/java'
+"""
+
+
 # Web deployments
 [tool.briefcase.app.androidjavaexperiment.web]
 requires = [
