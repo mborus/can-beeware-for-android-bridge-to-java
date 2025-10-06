@@ -28,7 +28,7 @@ class AndroidJavaExperiment(toga.App):
         )
         main_box.add(button)
 
-        self.main_window = toga.MainWindow(title="version 0.0.1")
+        self.main_window = toga.MainWindow(title="version 0.0.2")
         self.main_window.content = main_box
         self.main_window.show()
 
